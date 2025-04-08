@@ -69,7 +69,7 @@ copernicusmarine.login(username='seu_usuario', password='sua_senha')
 ### ⚙️ Uso
 
 ```bash
-python cmems_extraction.py --csv "chelonia_mydas_occur.csv" --out_csv "c_mydas_parameters.csv"
+python cmems_parameters.py --csv "chelonia_mydas_occur.csv" --out_csv "c_mydas_parameters.csv"
 ```
 
 ### 📥 Formato do CSV de entrada
