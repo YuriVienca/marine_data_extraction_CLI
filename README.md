@@ -43,7 +43,7 @@ python gbif_occurrences.py
 ### 📥 Exemplo
 
 ```bash
-python gbif_occurrences.py --species "Thunnus albacares" --bbox "-30 -10 -50 -30" --limit 10 --begin_date "2010-01-01" --end_date "2020-12-31" --out_csv "thunnus_ocorrencias.csv"
+python gbif_occurrences.py --species "Chelonia mydas" --bbox "-35 -10 -50 -30" --limit 50 --begin_date "2010-01-01" --end_date "2020-12-31" --out_csv "chelonia_mydas_occur.csv"
 ```
 
 ---
