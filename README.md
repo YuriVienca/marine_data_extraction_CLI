@@ -31,25 +31,19 @@ Este script acessa a plataforma [GBIF](https://www.gbif.org/) e retorna um arqui
 ### ⚙️ Uso
 
 ```bash
-python gbif_occurrences.py \
-  --species "Nome científico" \
-  --bbox "lat_min lat_max lon_min lon_max" \
-  --limit 300 \
-  --begin_date "YYYY-MM-DD" \
-  --end_date "YYYY-MM-DD" \
+python gbif_occurrences.py 
+  --species "Nome científico" 
+  --bbox "lat_min lat_max lon_min lon_max" 
+  --limit 300 
+  --begin_date "YYYY-MM-DD" 
+  --end_date "YYYY-MM-DD" 
   --out_csv "saida.csv"
 ```
 
 ### 📥 Exemplo
 
 ```bash
-python gbif_occurrences.py \
-  --species "Thunnus albacares" \
-  --bbox "-30 -10 -50 -30" \
-  --limit 200 \
-  --begin_date "2010-01-01" \
-  --end_date "2020-12-31" \
-  --out_csv "thunnus_ocorrencias.csv"
+python gbif_occurrences.py --species "Thunnus albacares" --bbox "-30 -10 -50 -30" --limit 10 --begin_date "2010-01-01" --end_date "2020-12-31" --out_csv "thunnus_ocorrencias.csv"
 ```
 
 ---
@@ -75,9 +69,7 @@ copernicusmarine.login(username='seu_usuario', password='sua_senha')
 ### ⚙️ Uso
 
 ```bash
-python cmems_extraction.py \
-  --csv "entrada.csv" \
-  --out_csv "saida.csv"
+python cmems_extraction.py --csv "entrada.csv" --out_csv "saida.csv"
 ```
 
 ### 📥 Formato do CSV de entrada
