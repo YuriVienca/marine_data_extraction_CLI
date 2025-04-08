@@ -43,7 +43,7 @@ python gbif_occurrences.py
 ### 📥 Exemplo
 
 ```bash
-python gbif_occurrences.py --species "Chelonia mydas" --bbox "-35 -10 -50 -30" --limit 50 --begin_date "2010-01-01" --end_date "2020-12-31" --out_csv "chelonia_mydas_occur.csv"
+python gbif_occurrences.py --species "Chelonia mydas" --bbox "-35 -10 -50 -30" --limit 10 --begin_date "2010-01-01" --end_date "2020-12-31" --out_csv "chelonia_mydas_occur.csv"
 ```
 
 ---
@@ -69,7 +69,7 @@ copernicusmarine.login(username='seu_usuario', password='sua_senha')
 ### ⚙️ Uso
 
 ```bash
-python cmems_extraction.py --csv "entrada.csv" --out_csv "saida.csv"
+python cmems_extraction.py --csv "chelonia_mydas_occur.csv" --out_csv "c_mydas_parameters.csv"
 ```
 
 ### 📥 Formato do CSV de entrada
